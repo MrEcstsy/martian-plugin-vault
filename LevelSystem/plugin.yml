@@ -1,0 +1,12 @@
+name: LevelSystem
+main: ecstsy\LevelSystem\Loader
+api: 5.0.0
+version: 1.0.0
+author: ecstsy
+soft-depend:
+  - BedrockkEconomy
+
+permissions:
+  levelsystem.default:
+    default: true
+    description: "Default permission for LevelSystem"

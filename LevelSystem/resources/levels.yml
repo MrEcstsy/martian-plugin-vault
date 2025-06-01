@@ -1,0 +1,49 @@
+# (!) DO NOT CHANGE (!)
+version: 1
+
+levels:
+  1:
+    price: 1000
+    items:
+      - item: "diamond_sword"
+        amount: 1
+        name: "&r&l&aLevel 1 Sword"
+        enchantments:
+          - enchant: "sharpness"
+            level: 1
+        lore:
+          - "&r&aSpecial sword for beginners"    
+  2:
+    price: 2000
+    commands:
+      - command: "give {player} steak 32"      
+      - command: "give {player} apple 32"
+  3:
+    price: 2000
+    commands:
+      - command: "give {player} steak 32"        
+  4:
+    price: 2000
+    commands:
+      - command: "give {player} steak 32"      
+  5:
+    price: 2000
+    commands:
+      - command: "give {player} steak 32"      
+  6:
+    price: 2000
+    commands:
+      - command: "give {player} steak 32"      
+  7:
+    price: 2000
+    commands:
+      - command: "give {player} steak 32"      
+  8:
+    price: 2000
+    commands:
+      - command: "give {player} steak 32"      
+  9:
+    price: 2000
+    commands:
+      - command: "give {player} steak 32"      
+

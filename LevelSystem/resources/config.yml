@@ -1,0 +1,20 @@
+# (!) DO NOT CHANGE (!)
+version: 1
+
+economy:
+  provider: bedrockeconomy
+
+messages:
+  level-up:
+    - "&r&l&a(!) &r&l&7You have reached level {level}!"
+  level-up-announce: # Leave blank if you do not want it to announce
+    - "&r&l&a(!) &r&l&7{player} has reached level {level}!"
+  max-level: "&r&cYou have reached maximum level!"
+  display-level:
+    - "&r&l&8-------------------------------"
+    - "&r&fYour level: &r&a{level}"
+    - "&r&l&8-------------------------------"
+  other-level:
+    - "&r&l&8-------------------------------"
+    - "&r&f{player}'s level: &r&a{level}"  
+    - "&r&l&8-------------------------------"
