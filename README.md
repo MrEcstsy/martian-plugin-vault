@@ -1,2 +1,2 @@
 # martian-plugin-vault
-Instead of spamming my github with a ton of dead repos, ill be placing my inactive plugins here, may pick them up in the future.
+I want these to work out of the box so theyre gonna be uploaded including the libraries in the plugin..
