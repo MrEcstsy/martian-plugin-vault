@@ -1,0 +1,11 @@
+name: Holograms
+main: ecstsy\Holograms\Loader
+api: 5.3.0
+version: 1.0.0
+author: ecstsy
+
+permissions:
+  holograms.create:
+    default: op
+  holograms.remove:
+    default: op
