@@ -1,0 +1,13 @@
+name: MartianMonthlyCrates
+main: ecstsy\MonthlyCrates\Loader
+api: 5.3.0
+version: 1.0.0
+author: ecstsylove
+
+permissions:
+  martian_monthly_crates.command:
+    default: true
+  martian_monthly_crates.reload:
+    default: op
+  martian_monthly_crates.give:
+    default: op 
