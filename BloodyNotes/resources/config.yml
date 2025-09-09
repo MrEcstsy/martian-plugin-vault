@@ -1,0 +1,31 @@
+notes:
+  bloodynote:
+    # Note information
+    material: "paper"
+    name: "&r&l&cBloody Note &r&7(Right Click)"
+    lore:
+      - "&r&7Uncover this Bloody Note to gain either"
+      - "&r&7a small fortune oor nothing at all."
+      - ""
+      - "&r&l&c* &r&7Note Worth: &r&c&kahwn3l&r"
+      - "&r&l&c(!) &r&cClick to uncover this Bloody Note"
+    # min and max amount to win
+    currency: BedrockEconomy # BedrockEconomy or EXP
+    min_amount: 50000
+    max_amount: 500000
+
+# Settings for the note
+settings:
+  # TYPES:
+  #  Message
+  #  Title
+  #  Actionbar
+  # Variables:
+  #   {prize} - amount of money won
+  #   {note} - the note the player opened
+  type: 'message'
+  message: "&r&aYou have uncovered a {note} &aworth: ${prize}"
+  title:
+    text: "&r&aUncovered:"
+    subtext: "&r&a${prize}"
+  actionbar: "&r&aYou have uncovered a {note} &aworth: ${prize}"

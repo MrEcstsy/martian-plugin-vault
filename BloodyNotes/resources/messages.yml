@@ -1,0 +1,8 @@
+help:
+  - "&r&l&7=&8=&7=&8=&7=&8=&7=&8=&7=&8=&7= &r&cBloody Notes &r&7=&8=&7=&8=&7=&8=&7=&8=&7=&8=&7="
+  - "&r&7Use /bloodynotes to get the list of command."
+  - "&r&l&8» &r&c/bloodynote give: &r&7Give a player a note"
+
+no-perm: "&r&l&c(!) &r&4You do not have permission to use this command."
+note-given: "&r&l&a(!) &r&aYou have given &2{type} &ax&1{amount} &ato '&1{player}&a'."
+invalid-player: "&r&l&c(!) &r&4The player you entered doesnt exist or is offline."

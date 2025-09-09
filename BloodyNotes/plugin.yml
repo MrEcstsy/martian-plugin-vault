@@ -1,0 +1,14 @@
+name: BloodyNotes
+main: xtcy\bn\Loader
+api: 5.0.0
+version: 1.0.0
+author: xtcy_
+
+depend:
+  - BedrockEconomy
+
+permissions:
+  bloodynotes.command:
+    default: op
+  bloodynotes.command.give:
+    default: op
