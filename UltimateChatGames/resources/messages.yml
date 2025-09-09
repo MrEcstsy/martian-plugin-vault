@@ -1,0 +1,11 @@
+messages:
+  start:
+    - "&r&l&c-=-=-=-=-=-=-=-=-=&8-=-=-=-=-=-=-=-=-=-=-="
+    - "&r&aFirst to unscramble: &b{word} &ain the chat wins"
+    - "&r&l&c-=-=-=-=-=-=-=-=-=&8-=-=-=-=-=-=-=-=-=-=-="
+  no-winner:
+    - "&r&l&c-=-=-=-=-=-=-=-=-=&8-=-=-=-=-=-=-=-=-=-=-="
+    - "&r&nNo one has unscrambled the word",
+    - "&r&l&c-=-=-=-=-=-=-=-=-=&8-=-=-=-=-=-=-=-=-=-=-="
+  winner:
+    - "&r&l&c{player} &r&aunscrambled the word! They received &r&l&5${reward}"
