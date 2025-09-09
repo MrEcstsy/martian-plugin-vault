@@ -1,0 +1,83 @@
+crates:
+  example:
+    title: "&r&e&lExample Crate"
+    material: "ENDER_CHEST"
+    name: "&r&e&l*** &eExample Crate &e&l***"
+    lore:
+      - '&r&eUnlocked at buy.store.com by {player}'
+      - ''
+      - '&r&f&lADMIN ITEMS'
+      - '&r&f&l* &fAdmin Item'
+      - ''
+      - '&r&e&lCOSMETIC ITEMS'
+      - '&r&e&l* &eCosmetic Item'
+      - ''
+      - '&r&6&lENCHANTMENT ITEMS'
+      - '&r&6&l* &6Enchantment Item'
+      - ''
+      - '&r&c&lBONUS ITEMS'
+      - '&r&c&l* &cBonus Item'
+    animation:
+      colors:
+        - 'BLUE_STAINED_GLASS_PANE'
+        - 'PINK_STAINED_GLASS_PANE'
+        - 'LIGHT_BLUE_STAINED_GLASS_PANE'
+        - 'GRAY_STAINED_GLASS_PANE'
+        - 'YELLOW_STAINED_GLASS_PANE'
+        - 'PURPLE_STAINED_GLASS_PANE'
+        - 'ORANGE_STAINED_GLASS_PANE'
+        - 'CYAN_STAINED_GLASS_PANE'
+      shuffle-time: 5
+      duplicate-rewards: true
+      panes:
+        filler:
+          material: "GRAY_STAINED_GLASS_PANE"
+          name: " "
+          lore: []
+        hidden:
+          material: "ENDER_CHEST"
+          name: "&r&7&l???"
+          lore:
+            - '&r&7Click to redeem an item'
+            - '&r&7from this monthly crate'
+        locked:
+          material: "RED_STAINED_GLASS_PANE"
+          name: "&r&c&lLOCKED"
+          lore:
+            - '&r&7You must unlock all other rewards'
+            - '&r&7to obtain the bonus item'
+        final:
+          material: "ENDER_CHEST"
+          name: "&r&7&l???"
+          lore:
+            - '&r&7Click to redeem your'
+            - '&r&7bonus reward'
+    bonus-rewards:
+      1:
+        chance: 50.0
+        material: "DIRT"
+        name: "&r&c&lBonus Reward"
+        lore:
+          - 'This is a really cool diamond'
+        command:
+          - 'give {player} dirt'
+        give_item: false
+    rewards:
+      1:
+        chance: 50.0
+        material: "DIRT"
+        name: "&c&lDirt"
+        lore:
+          - '&7This is a really cool dirt'
+        command:
+          - 'give {player} dirt'
+        give_item: false
+      2:
+        chance: 60.0
+        material: "DIAMOND"
+        name: "&c&lDIAMOND"
+        lore:
+          - '&7This is a really cool dirt'
+        command:
+          - 'give {player} diamond'
+        give_item: false

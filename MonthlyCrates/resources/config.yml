@@ -1,0 +1,15 @@
+# (!) DO NOT CHANGE (!)
+version: 1
+
+settings:
+  language: en-us
+  display: true
+
+command:
+  name: "monthlycrate"
+  description: "Monthly Crate command."
+  aliases:
+    - 'mc'
+    - 'mcrate'
+    - 'monthlycrates'
+    - 'mcrates'

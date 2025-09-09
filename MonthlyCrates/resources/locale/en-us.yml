@@ -1,0 +1,23 @@
+command:
+  main:
+    - "&r&e----- &l&7Monthly&eCrates &6Commands &r&e-----"
+    - " "
+    - "&r&e/monthlycrate give &6<player> <crate> &e[amount]"
+    - "&r&e/monthlycrate addreward &6crate <give-item> <chance> <command>"
+    - "&r&e/monthlycrate list"
+    - "&r&e/monthlycrate reload"
+    - " "
+    - "&r&6<> &7- &fRequire Argument"
+    - "&r&e[] &7- &fOptional Argument"
+    - " "
+    - "&r&l&6Aliases: &e<monthlycrates|mc|mcrates|mcrate>"
+  reload: "&r&6&l(!) &r&eConfiguration Files have been reloaded!"
+
+invalid-crate: "&r&l&4(!) &r&cThat is an invalid crate type!"
+given-crate: "&r&6&l(!) &r&eYou have given &6{player} &ex{amount} of &6{crate}&e crates!"
+cannot-add-air: "&r&l&c(!) &r&cYou cannot add air to a crate!"
+reward-added: "&r&a&l(!) &r&aReward added!"
+not-enough-rewards: "&r&c&l(!) &r&cThis crate does not contain enough rewards! [Min: 9]
+  OR You can enable duplicate rewards"
+inventory-full: "&r&c&l(!) &cYour inventory was full so your item was dropped on the
+  floor!"
