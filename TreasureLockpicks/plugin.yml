@@ -1,0 +1,10 @@
+name: TreasureLockpicks
+main: ecstsy\TreasureLockpicks\Loader
+api: 5.0.0
+version: 1.0.0
+author: ecstsy
+
+permissions:
+  command.admin:
+    default: op 
+    description: Access to all admin commands

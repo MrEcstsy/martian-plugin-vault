@@ -1,0 +1,42 @@
+# (!) DO NOT TOUCH (!)
+version: 1.0
+
+treasures:
+  possessed: # Identifier
+    type: "chest"
+    name: "&r&l&5Possessed Treasure &r&7(Right Click)"
+    lore:
+      - "{LOCK_STATUS}"
+      - " "
+      - "&r&7Reeking of &odemise&r&7, once unlocked this Treasure will"
+      - "&r&7&oUnleash Death&r&7 Decaying Treasures it holds!"
+      - " "
+      - "&r&5Possible Rewards:"
+    items:
+      - item: "diamond_sword"
+        chance: 50
+        amount: 1
+        enchantments:
+          - enchant: "sharpness"
+            level: 4
+      - item: "ender_chest" # This item will show you how to give an item that requires an nbt tag.
+        name: "&r&l&lYour custom item name"
+        lore:
+          - "&r&7The lines to your custom"
+          - "&r&7item lore."
+        amount: 1
+        nbt: # Set nbt tags to the item, only use if you know what you are doing.
+          tag: "name" # The name of your nbt tag
+          value: "true" # The value of your nbt tag
+        chance: 20
+lockpick:
+  type: "tripwire_hook"
+  name: "&r&dTreasure Lockpick"
+  lore: 
+    - "&r&7This Lockpick is capable of Unlocking many"
+    - "&r&7Treasures that many have failed to open!"
+    - " "
+    - " &r&d* &7Unlocks: &dTreasures &8[&7Any Tier&8]"
+    - " &r&d* &7Success Chance: &a{SUCCESS_CHANCE}%"
+    - " " 
+    - "&r&l&d(!) &r&dDrag n' Drop this onto a Treasure!"
