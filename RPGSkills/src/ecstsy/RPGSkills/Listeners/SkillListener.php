@@ -20,17 +20,16 @@ class SkillListener implements Listener {
             if ($action instanceof SlotChangeAction) {
                 $inventory = $action->getInventory();
 
-                // Ensure this is the player's inventory
                 if ($inventory instanceof PlayerInventory) {
                     $item = $action->getTargetItem();
 
                     // Check if the item has a skill requirement (like a Diamond Pickaxe)
                     $updatedItem = Utils::updateItemLore($player, $item);
 
-                    // Update the item in the player's inventory
                     $inventory->setItem($action->getSlot(), $updatedItem);
                 }
             }
         }
     }
 }
+
