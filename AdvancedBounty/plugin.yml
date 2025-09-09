@@ -1,0 +1,13 @@
+name: AdvancedBounty
+main: wockkinmycup\advancedbounty\Loader
+api: 5.0.0
+version: 1.0.0
+author: woccck
+depend:
+  - BedrockEconomy
+
+permissions:
+  advancedbounty.default:
+    default: true
+  advancedbounty.admin:
+    default: op

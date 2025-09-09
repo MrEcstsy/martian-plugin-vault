@@ -1,0 +1,15 @@
+# Tags:
+broadcasts:
+  set: "&r&f{player} &eset a bounty on &f{target_player}&r&e! Kill them to get §&f{amount}{currency_symbol}"
+  total: "&r&7§oTotal Bounty: {total_amount}{currency_symbol} (-{tax}%"
+  claimed-bounty: "&r&a{killer} &7claimed a bounty of &a&l{currency_symbol}{amount} &r&7from &a{victim}!"
+leaderboards:
+  header: "&r&6Top 10 Most Wanted:"
+  info: "&r&e#{position}: {player} - {amount}{currency_symbol}"
+view:
+  self: "&r&l&6[!] &r&fYour current bounty: {currency_symbol}{bounty}"
+  other: "&r&l&6[!] &r&f{target_player}'s current bounty: {currency_symbol}{bounty}"
+remove:
+  no-bounty: "&r&l&c[!] &r&c'{target}' does not have a bounty."
+  removed: "&r&l&a[!] &r&aBounty for '{target}' has been removed."
+not-found: "&r&l&c[!] &r&cPlayer '{target_player}' not found or is not online."
