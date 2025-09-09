@@ -1,0 +1,9 @@
+name: RPGSkills
+main: ecstsy\RPGSkills\Loader
+api: 5.3.0
+version: 1.0.0
+author: ecstsy
+
+permissions:
+  rpgskills.setlevel:
+    default: op

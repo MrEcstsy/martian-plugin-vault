@@ -1,0 +1,62 @@
+# (!) DO NOT CHANGE (!)
+version: 1
+
+# Skill definitions and leveling configuration.
+skills:
+  mining:
+    display_name: "Mining"
+    max_level: 50
+    xp_sources:
+      blocks:
+        - type: "stone"
+          amount: 10
+        - type: "diamond_ore"
+          amount: 100
+    item_restrictions:
+      - type: "minecraft:diamond_pickaxe"
+        required_level: 16
+  combat:
+    display_name: "Combat"
+    max_level: 50
+    xp_sources:
+      entities:
+        - type: "zombie"
+          amount: 50
+        - type: "blaze"
+          amount: 120
+    item_restrictions:
+      - type: "minecraft:diamond_sword"
+        required_level: 20
+
+  farming:
+    display_name: "Farming"
+    max_level: 50
+    xp_sources:
+      blocks:
+        - type: "wheat"
+          amount: 5
+        - type: "melon"
+          amount: 15
+    item_restrictions:
+      - type: "minecraft:golden_hoe"
+        required_level: 10
+
+# Traits unlocked at specific levels.
+traits:
+  mining:
+    - level: 10
+      effect: "haste"  # Adds a haste effect to mining at level 10
+      duration: 600     # Duration in ticks
+    - level: 20
+      effect: "night_vision"
+      duration: 600
+
+  combat:
+    - level: 15
+      effect: "strength"
+      duration: 600
+
+  farming:
+    - level: 5
+      effect: "speed"
+      duration: 600
