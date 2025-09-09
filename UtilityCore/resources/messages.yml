@@ -1,0 +1,17 @@
+bless:
+  blessed: "&r&e&l(!) &r&eYou have been &r&e&l** BLESSED **"
+  removed-effects: "&r&l&c[-] &r&7{effect}{level}"
+items:
+  itemnametag:
+    messages:
+      not-tool-armor:
+        - "&r&l&e** You can only rename tools or armor."
+      success:
+        - "&r&e&l(!) &r&eYour ITEM has been renamed to: '{item_name}&e'"
+      air:
+        - '&r&l&e** You must hold an item in your hand.'
+      activate:
+        - "    &r&6&lRename-Tag Usage"
+        - "&r&61. &r&7Hold the ITEM you'd like to rename."
+        - "&r&62. &r&7Send the new name as a chat message &lwith & color codes&r&7."
+        - "&r&63. &r&7Confirm the preview of the new name that is displayed."

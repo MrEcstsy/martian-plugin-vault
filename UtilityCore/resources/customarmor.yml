@@ -1,0 +1,226 @@
+sets:
+  supreme:
+    activation: '&l&a[!] &r&aActivated Supreme Set Bonuses!'
+    deactivation: '&l&c[!] &r&cDeactivated Supreme Set Bonuses!'
+    set-bonus:
+      - "&l&cSUPREME SET BONUS"
+      - "&8• &r&4Gears IV."
+      - "&8• &r&4Deal +15% damage to all enemies."
+      - "&8• &r&4Enemy Arrows deal 10% less damage to you."
+      - "&r&o&7(Requires all 4 supreme pieces)"
+    helmet:
+      item: "diamond_helmet"
+      name: "&4&lSupreme Headgear"
+      lore:
+        - "&4A lightweight headpiece fit for takeoff."
+        - ""
+        - "{set_bonus}"
+    chestplate:
+      item: "diamond_chestplate"
+      name: "&4&lSupreme Vest"
+      lore:
+        - "&4A lightweight vest fit for takeoff."
+        - ""
+        - "{set_bonus}"
+    leggings:
+      item: "diamond_leggings"
+      name: "&4&lSupreme Chaps"
+      lore:
+        - "&4A lightweight Chap fit for takeoff."
+        - ""
+        - "{set_bonus}"
+    boots:
+      item: "diamond_boots"
+      name: "&4&lSupreme Thruster Boots"
+      lore:
+        - "&4A lightweight boot fit for takeoff."
+        - ""
+        - "{set_bonus}"
+  phantom:
+    activation: '&r&l&c** PHANTOM ACTIVATED **'
+    deactivation: '&r&l&c** PHANTOM DEACTIVATED **'
+    set-bonus:
+      - '&c&lPHANTOM SET BONUS'
+      - '&8• &r&cDeal +25% damage to all enemies.'
+      - '&r&7&o(Requires all 4 phantom items.)'
+    weapon-bonus:
+      - '&c&lPHANTOM WEAPON BONUS'
+      - '&8• &r&cDeal +10% damage to all enemies.'
+      - '&r&7&o(Requires all 4 phantom set items.)'
+    helmet:
+      item: 'diamond_helmet'
+      name: '&c&lPhantom Hood'
+      lore:
+        - '&cThe fabled hood of the phantom'
+        - ''
+        - '{set_bonus}'
+    chestplate:
+      item: 'diamond_chestplate'
+      name: '&c&lPhantom Shroud'
+      lore:
+        - '&cThe legendary shroud of the Phantom.'
+        - ''
+        - '{set_bonus}'
+    leggings:
+      item: 'diamond_leggings'
+      name: '&c&lPhantom Robeset'
+      lore:
+        - '&cThe demonic robe of the Phantom.'
+        - ''
+        - '{set_bonus}'
+    boots:
+      item: 'diamond_boots'
+      name: '&c&lPhantom Sandals'
+      lore:
+        - '&cThe silent sandals of the Phantom.'
+        - ''
+        - '{set_bonus}'
+    weapon:
+      item: 'diamond_sword'
+      name: '&c&lPhantom Scythe'
+      lore:
+        - '&7An eerie blade designed to'
+        - '&7cut through anything'
+        - ''
+        - '{weapon_bonus}'
+  titan:
+    activation: '&r&l&9** TITAN ACTIVATED **'
+    deactivation: '&r&l&9** TITAN DEACTIVATED **'
+    set-bonus:
+      - '&9&lTITAN SET BONUS'
+      - '&8• &r&9Permanent Regeneration III.'
+      - '&8• &r&9Permanent Speed IV.'
+      - '&8• &r&9Permanent Saturation.'
+      - '&8• &r&9+15% PvP Damage.'
+      - '&8• &r&9-35% Incoming Damage.'
+      - '&r&7&o(Requires all 4 Titan items.)'
+    helmet:
+      item: 'diamond_helmet'
+      name: '&9&lTitan Circlet'
+      lore:
+        - '&7Forsaken by gods, obtained divine'
+        - '&7help whenever struck.'
+        - ''
+        - '{set_bonus}'
+    chestplate:
+      item: 'diamond_chestplate'
+      name: '&9&lTitan Battleplate'
+      lore:
+        - '&7Made of unearthly ingots, even the'
+        - '&7mighty struggle to inflict here'
+        - ''
+        - '{set_bonus}'
+    leggings:
+      item: 'diamond_leggings'
+      name: '&9&lTitan Platelegs'
+      lore:
+        - '&7Angels amplify their power'
+        - '&7tp unforeseen results.'
+        - ''
+        - '{set_bonus}'
+    boots:
+      item: 'diamond_boots'
+      name: '&9&lTitan Greatboots'
+      lore:
+        - '&7Incredible durability, made to'
+        - '&7hold the weight of gods.'
+        - ''
+        - '{set_bonus}'
+  ghoul:
+    activation: "&r&l&4** GHOUL ACTIVATED **"
+    deactivation: "&r&l&4** GHOUL DEACTIVATED **"
+    set-bonus:
+      - "&r&l&4GHOUL SET BONUS"
+      - "&8• &r&4+25% PvP Damage"
+      - "&8• &r&4-15% Incoming Damage"
+      - "&8• &r&4Halloweenify Passive Ability"
+      - "&r&7&o(Requires all 4 ghoul pieces.)"
+    ability:
+      cooldown: 30
+      message: "&r&l&6Halloweenify Ability Used!"
+    helmet:
+      item: 'diamond_helmet'
+      name: '&4&lGhoul Hood'
+      lore:
+        - "&7The souls imbued neutralizes"
+        - "&7parts of the inflicted damage."
+        - ""
+        - "{set_bonus}"
+    chestplate:
+      item: 'diamond_chestplate'
+      name: '&4&lGhoul Shroud'
+      lore:
+        - "&7Forged by demons, surround"
+        - "&7the devil with a demonic aura."
+        - ""
+        - "{set_bonus}"
+    leggings:
+      item: 'diamond_leggings'
+      name: '&4&lGhoul Robeset'
+      lore:
+        - "&7Made by demons with the haunted"
+        - "&7souls stolen nu Hades himself."
+        - ""
+        - "{set_bonus}"
+    boots:
+      item: 'diamond_boots'
+      name: '&4&lGhoul Sandals'
+      lore:
+        - "&7Enchanted with demonic power"
+        - "&7and highly durable."
+        - ""
+        - "{set_bonus}"
+  ethereal_enforcer:
+    activation: '&r&l&d** ETHEREAL ENFORCER ACTIVATED **'
+    deactivation: '&r&l&d** ETHEREAL ENFORCER DEACTIVATED **'
+    set-bonus:
+      - '&r&l&dETHEREAL ENFORCER SET BONUS'
+      - '&8• &r&d-10% Incoming Damage'
+      - '&8• &r&d-10% Shadowmeld Passive Ability'
+      - '&r&o&7(Requires all 4 ethereal enforcer pieces.)'
+    weapon-bonus:
+      - "&r&l&dETHEREAL ENFORCER WEAPON BONUS"
+      - '&8• &r&d+15% PvP Damage'
+    ability:
+      cooldown: 30
+      message: "&r&l&dEthereal Enforcer Ability Used!"
+    helmet:
+      item: 'diamond_helmet'
+      name: '&8&lEthereal Crown'
+      lore:
+        - "&7Forged from the essence of shadows,"
+        - "&7this crown grants ethereal sight."
+        - ""
+        - "{set_bonus}"
+    chestplate:
+      item: 'diamond_chestplate'
+      name: '&8&lEthereal Mantle'
+      lore:
+        - "&7A mantle that wraps the wearer in"
+        - "&7shadows, providing protection and agility."
+        - ""
+        - "{set_bonus}"
+    leggings:
+      item: 'diamond_leggings'
+      name: '&8&lEthereal Legguards'
+      lore:
+        - "&7Enchanted legguards that allow swift"
+        - "&7and silent movement in the shadows."
+        - ""
+        - "{set_bonus}"
+    boots:
+      item: 'diamond_boots'
+      name: '&8&lEthereal Treads'
+      lore:
+        - "&7Treads infused with the essence of"
+        - "&7the ethereal, granting unmatched speed."
+        - ""
+        - "{set_bonus}"
+    weapon:
+      item: 'diamond_sword'
+      name: '&8&lShadow Reckoner'
+      lore:
+        - "&7A blade resonating with shadow energy,"
+        - "&7unleashing the power of the ethereal."
+        - ""
+        - "{weapon_bonus}"

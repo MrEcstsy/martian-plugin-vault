@@ -1,0 +1,17 @@
+server-name: "Odyssey"
+
+vouchers:
+  example:
+    item: 'paper'
+    name: '&r&l&eRANK "&r&fExample&e&l"'
+    lore:
+      - '&r&7Right-click this item to'
+      - '&r&7receive Example rank on Server'
+    settings:
+      commands:
+        - 'ranksystem setrank {user} example'
+      message: ''
+      require-permission: false
+      permission: 'utility_vouchers.example'
+      sound-toggle: true
+      sound: 'random.click'

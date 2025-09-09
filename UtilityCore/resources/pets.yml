@@ -1,0 +1,13 @@
+pets:
+  bless:
+    item: "skeleton_skull"
+    name: "&l&aBless Pet"
+    lore:
+      - "&7A blessed pet that is ready to"
+      - "&7bless you with their magic."
+      - ""
+      - "&l&aAbility"
+      - "&7Removes all debuffs"
+      - ""
+      - "&l&aCooldown"
+      - "&79 Minutes"
