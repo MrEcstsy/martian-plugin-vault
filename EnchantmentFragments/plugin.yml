@@ -1,0 +1,9 @@
+name: EnchantmentFragments
+main: wockkinmycup\enchantfragments\Loader
+api: 5.0.0
+version: 1.0.0
+author: wockkinmycup
+
+permissions:
+  enchantmentfragments.admin:
+    default: op

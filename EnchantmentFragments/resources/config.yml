@@ -1,0 +1,25 @@
+fragments:
+  unbreaking:
+    item: "iron_ingot"
+    name: "&r&l&bEnchantment Fragment [&r&dUnbreaking V&l&b]"
+    lore:
+      - "&r&7Drag n' Drop on a pair of"
+      - "&r&b'&7armor&b'&7 to enchant &dUnbreaking V&7."
+  thorns:
+    item: "redstone_dust"
+    name: "&r&l&cEnchantment Fragment [&r&7Thorns III&l&c]"
+    lore:
+      - "&r&7Drag n' Drop on a pair of"
+      - "&r&c'&7armor&c'&7 to enchant &cThorns III&7."
+  depth_strider:
+    item: "lapis_lazuli"
+    name: "&r&l&bEnchantment Fragment [&r&7Depth Strider III&l&b]"
+    lore:
+      - "&r&7Drag n' Drop on a pair of"
+      - "&r&b'&7boots&b'&7 to enchant &bDepth Strider III&7."
+    looting:
+      item: "gold_ingot"
+      name: "&r&l&bEnchantment Fragment [&r&dLooting V&l&b]"
+      lore:
+        - "&r&7Drag n' DDrop on a pair of"
+        - "&r&b'&7weapon&b'&7 to enchant &dLooting V&7."
