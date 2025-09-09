@@ -1,0 +1,27 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "example_item": {
+            "textures": "textures/items/example_item.png"
+        },
+        "wooden_stiletto": {
+            "textures": "textures/items/wooden_stiletto.png"
+        },
+        "stone_stiletto": {
+            "textures": "textures/items/stone_stiletto.png"
+        },
+        "iron_stiletto": {
+            "textures": "textures/items/iron_stiletto.png"
+        },
+        "golden_stiletto": {
+            "textures": "textures/items/golden_stiletto.png"
+        },
+        "diamond_stiletto": {
+            "textures": "textures/items/diamond_stiletto.png"
+        },
+        "netherite_stiletto": {
+            "textures": "textures/items/netherite_stiletto.png"
+        }
+    }
+}

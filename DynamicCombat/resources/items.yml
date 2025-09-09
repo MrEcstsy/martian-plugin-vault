@@ -1,0 +1,16 @@
+weapons:
+  poison:
+    item: "diamond_sword"
+    name: "&r&l&2Viper's Kiss"
+    lore:
+      - "&r&7Forged in a serpent's lair, 'Viper's Kiss' bears lethal venom."
+      - "&r&7Passed through generations, the blade grants its wielder a toxic edge in battle."
+    activation: "&r&l&a[!] &r&7You have activated the Poison Blade Ability."
+  frostbite:
+    item: "diamond_sword"
+    name: "&r&l&dFrostbite Blade"
+    lore:
+      - "&r&7A blade forged in the heart of an eternal winter,"
+      - "&r&7its icy edge chills the air and freezes the souls of"
+      - "&r&7those it touches, leaving behind a frosty trail of despair."
+    activation: "&r&l&a[!] &r&7You have activated the Frostbite Ability."

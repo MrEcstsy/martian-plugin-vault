@@ -1,0 +1,6 @@
+cooldowns:
+  poison: 60
+  frostbite: 60
+
+messages:
+  cooldown: "&r&l&c[!] &r&7Please wait {cooldown} before using this ability again."

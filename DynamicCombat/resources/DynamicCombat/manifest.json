@@ -1,0 +1,18 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Dynamic Combat armory pack",
+		"description": "Resource Pack for Dynamic Combat",
+        "uuid": "df57591e-00e3-449f-8d83-d1569a02ff66",
+		"version": [1, 0, 1],
+		"min_engine_version": [1, 16, 0]
+	},
+	"modules": [
+		{
+			"description": "Dynamic Combat",
+			"type": "resources",
+            "uuid": "dee362bd-1a54-48fd-b172-2f3b574fc73a",
+			"version": [1, 0, 0]
+		}
+	]
+}

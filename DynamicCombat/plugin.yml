@@ -1,0 +1,10 @@
+name: DynamicCombat
+main: wockkinmycup\DynamicCombat\Loader
+api: 5.0.0
+version: 1.0.0
+author: wockkinmycup
+description: Adds new combat mechanics to the game.
+
+permissions:
+  dynamic_combat.class:
+    default: true
