@@ -1,0 +1,27 @@
+# (!) DO NOT CHANGE (!)
+version: 1
+
+# Crop Growth Modifiers
+crops:
+  wheat:
+    growth-speed-modifier: 1.5 # Growth Speed multiplier (1.0 is normal)
+    conditions:
+      - type: time-of-day
+        time: day # Options: day, night
+      - type: nearby-water
+        radius: 5
+  carrot:
+    growth-speed-modifier: 2.0
+    conditions:
+      - type: time-of-day
+        time: night
+      - type: nearby-light-source
+        light-source: torch # Light Source (e.g., torch, glowstone)
+  melon:
+    growth-speed-modifier: 1.2
+    conditions:
+      - type: nearby-block
+        block: water
+        radius: 3
+      - type: biome
+        biome: plains # Only grows in specific biomes
