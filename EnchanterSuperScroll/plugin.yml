@@ -1,0 +1,10 @@
+name: SuperScrolls
+main: wockkinmycup\superscroll\Loader
+api: 5.0.0
+version: 1.0.0
+author: wockkinmycup
+description: "Super Scrolls plugin for your Pocketmine-MP server!"
+
+permissions:
+  superscrolls.admin:
+    default: op

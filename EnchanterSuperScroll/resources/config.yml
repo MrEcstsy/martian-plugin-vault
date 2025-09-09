@@ -1,0 +1,14 @@
+# Allow the scrolls to be one time use?
+one-time: true
+superscrolls:
+  enchanter:
+    item: "empty_map"
+    name: "&r&l&6Enchanter Super Scroll"
+    lore:
+      - "&r&8Weapon Super Scroll"
+      - ""
+      - "&r&6| &8• &eApplicable: &fWeapons Only"
+      - "&r&7| &8• &eEffect: &fIncrease all the vanilla"
+      - "&r&fenchants on this item by 1 level"
+      - ""
+      - "&r&7&oDrag n' Drop on a weapon to apply."
