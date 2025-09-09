@@ -1,0 +1,16 @@
+name: OreWatch
+api: 5.3.0
+version: 1.0.0
+main: ecstsy\OreWatch\Loader
+author: ecstsy
+
+permissions:
+  OreWatch.admin:
+    default: op
+    description: "Gives access to admin commands."
+  OreWatch.staff:
+    default: op
+    description: "Gives access to notifications, inspect, and interval command."
+  OreWatch.help:
+    default: op
+    description: "Gives access to /OreWatch help page."
