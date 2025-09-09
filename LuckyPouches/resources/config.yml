@@ -1,0 +1,219 @@
+pouches:
+  simple:
+
+    # The display name of the Pouch
+    name: '&r&7&l✦ &r&f&lSimple Pouch &r&7&l✦'
+
+    # The material of your Pouch
+    material: 'ender_chest'
+
+    # Current Animations
+    # NONE, TITLE, ACTIONBAR, BOSSBAR, RANDOM
+    animation: BOSSBAR
+
+    # The minimum amount of money a Player can receive.
+    min: 500
+
+    # The maximum amount of money a Player can receive.
+    max: 1000
+
+    # Current Currencies
+    # BEDROCKECONOMY, XP
+    currency: odyssey
+
+    # The Pouch's lore.
+    lore:
+      - '&r&7This mystical pouch contains a random amount of money.'
+      - '&r&7Open it to reveal your fortune!'
+      - ''
+      - '&r&6&lPayout Range:'
+      - '&r&6 * &e$500 &7to &e$1,000'
+      - ''
+      - '&r&7May your luck shine brightly!'
+  unique:
+    name: '&r&2&l✦ &r&a&lUnique Pouch &r&2&l✦'
+    material: 'ender_chest'
+    animation: BOSSBAR
+    min: 1500
+    max: 2000
+    currency: odyssey
+    lore:
+      - '&r&7This mystical pouch contains a random amount of money.'
+      - '&r&7Open it to reveal your fortune!'
+      - ''
+      - '&r&6&lPayout Range:'
+      - '&r&6 * &e$1,500 &7to &e$2,000'
+      - ''
+      - '&r&7May your luck shine brightly!'
+  elite:
+    name: '&r&b&l✦ &r&3&lElite Pouch &r&b&l✦'
+    material: 'ender_chest'
+    animation: BOSSBAR
+    min: 2500
+    max: 3000
+    currency: odyssey
+    lore:
+      - '&r&7This mystical pouch contains a random amount of money.'
+      - '&r&7Open it to reveal your fortune!'
+      - ''
+      - '&r&6&lPayout Range:'
+      - '&r&6 * &e$2,500 &7to &e$3,000'
+      - ''
+      - '&r&7May your luck shine brightly!'
+  ultimate:
+    name: '&r&6&l✦ &r&e&lUltimate Pouch &r&6&l✦'
+    material: 'ender_chest'
+    animation: BOSSBAR
+    min: 3500
+    max: 4000
+    currency: odyssey
+    lore:
+      - '&r&7This mystical pouch contains a random amount of money.'
+      - '&r&7Open it to reveal your fortune!'
+      - ''
+      - '&r&6&lPayout Range:'
+      - '&r&6 * &e$3,500 &7to &e$4,000'
+      - ''
+      - '&r&7May your luck shine brightly!'
+  legendary:
+    name: '&r&e&l✦ &r&6&lLegendary Pouch &r&e&l✦'
+    material: 'ender_chest'
+    animation: BOSSBAR
+    min: 4500
+    max: 5000
+    currency: odyssey
+    lore:
+      - '&r&7This mystical pouch contains a random amount of money.'
+      - '&r&7Open it to reveal your fortune!'
+      - ''
+      - '&r&6&lPayout Range:'
+      - '&r&6- &e$4,500 &7to &e$5,000'
+      - ''
+      - '&r&7May your luck shine brightly!'
+
+animations:
+
+  # None Animation Settings
+  none:
+
+    # How long would you like players to be able to redeem Pouches with this Animation? (In seconds)
+    cooldown: 0
+
+    # Should this animation also send the Prize Message to the player?
+    show_prize_message: true
+    show_prize_xp_message: true
+
+    # What sound should be played? (Empty for no sound)
+    sound: ''
+
+  # Title Animation Settings
+  title:
+
+    # How fast should the title progress be? (In ticks, 20 ticks = 1 Second)
+    ticks: 10
+
+    # How long would you like players to be able to redeem Pouches with this Animation? (In seconds)
+    cooldown: 3
+
+    # What sound should be played? (Empty for no sound)
+    start_sound: ''
+
+    # What sound should be played? (Empty for no sound)
+    end_sound: ''
+
+    # Should the title Animation also send the Prize Message to the player?
+    show_prize_message: true
+    show_prize_xp_message: true
+
+    # The color code that the Prefix will be displayed with
+    prefix_color: '&a'
+
+    # The color code that the Suffix will be displayed with
+    suffix_color: '&a'
+
+    # The color code that the Amount will be displayed with
+    reveal_color: '&a'
+
+    # The color code that the Obfuscated Digits will be displayed with
+    obfuscate_color: '&b'
+
+    # The Subtitle Message
+    subtitle: '&r&fOpening Pouch...'
+
+  # Actionbar Animation Settings
+  actionbar:
+
+    # How fast should the actionbar progress be? (In ticks, 20 ticks = 1 Second)
+    ticks: 10
+
+    # How long would you like players to be able to redeem Pouches with this Animation? (In seconds)
+    cooldown: 3
+
+    # What sound should be played? (Empty for no sound)
+    start_sound: ''
+
+    # What sound should be played? (Empty for no sound)
+    end_sound: ''
+
+    # Should the actionbar Animation also send the Prize Message to the player?
+    show_prize_message: false
+    show_prize_xp_message: false
+
+    # The color code that the Prefix will be displayed with
+    prefix_color: '&a'
+
+    # The color code that the Suffix will be displayed with
+    suffix_color: '&a'
+
+    # The color code that the Amount will be displayed with
+    reveal_color: '&a'
+
+    # The color code that the Obfuscated Digits will be displayed with
+    obfuscate_color: '&b'
+
+    # The Actionbar Message
+    actionbar: '&fYou have earned {reward}'
+
+  # BossBar Animation Settings
+  bossbar:
+
+    # How fast should the bossbar progress be? (In ticks, 20 ticks = 1 Second)
+    ticks: 10
+
+    # How long would you like players to be able to redeem Pouches with this Animation? (In seconds)
+    cooldown: 6
+
+    # What sound should be played? (Empty for no sound)
+    start_sound: ''
+
+    # What sound should be played? (Empty for no sound)
+    end_sound: ''
+
+    # Should the bossbar Animation also send the Prize Message to the player?
+    show_prize_message: false
+    show_prize_xp_message: false
+
+    # The color code that the Prefix will be displayed with
+    prefix_color: '&a'
+
+    # The color code that the Suffix will be displayed with
+    suffix_color: '&a'
+
+    # The color code that the Amount will be displayed with
+    reveal_color: '&a'
+
+    # The color code that the Obfuscated Digits will be displayed with
+    obfuscate_color: '&b'
+
+    # The BossBar Message
+    text: '&fYour prize is {reward}'
+
+  # Random Animation Settings
+  random:
+
+    # How long would you like players to be able to redeem Pouches with this Animation? (In seconds)
+    cooldown: 6
+
+    # Should the bossbar Animation also send the Prize Message to the player?
+    show_prize_message: true
+    show_prize_xp_message: false

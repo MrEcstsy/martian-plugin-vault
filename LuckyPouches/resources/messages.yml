@@ -1,0 +1,15 @@
+# The prefix that will be used for the messages.
+prefix: '&r&l&f[&bLuckyPouches&f]» &r'
+
+# The Prize Message
+prize_message: '{prefix}&fYou have redeemed a pouch and received &a${prize}'
+prize_xp_message: '{prefix}&fYou have redeemed a pouch and received &a{prize} XP'
+
+# The message shown when an Operator gives a pouch.
+pouch-given: '{prefix}&fYou have given {player} {amount} {type} pouch(s)'
+
+# The message shown when a Player receives a pouch.
+pouch-received: '{prefix}&fYou have received {amount} {type} pouch(s)'
+
+# The message broadcasted when a pouch is given to everyone
+give-all: "{prefix}&fYou have received 1 {type} pouch from a Give-All!"
